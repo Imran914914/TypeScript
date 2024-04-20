@@ -1,4 +1,4 @@
-let greetings:string = "hello";
+let greetings : string = "hello";
 
 // syntax ======>  <=>  let/var/const variableName : Type = Value  <=>;
 
