@@ -1,4 +1,6 @@
+"use strict";
 //Union is combination of two or more types
+Object.defineProperty(exports, "__esModule", { value: true });
 var score = 33;
 score = "34";
 score = 23;
@@ -28,3 +30,9 @@ function getDbId(id) {
 // console.log(arr);
 var arr = [1, 2, 3, 4, "6", "5", true, false];
 console.log(arr);
+var pi = 3.14;
+// pi = 3.145;          //error    can't
+var seatAllotment;
+seatAllotment = "aisle";
+seatAllotment = "middle";
+seatAllotment = "window";

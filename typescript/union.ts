@@ -53,3 +53,5 @@ seatAllotment = "aisle";
 seatAllotment = "middle";
 seatAllotment = "window";
 // seatAllotment = "business";        //error  can't 
+
+export {};
