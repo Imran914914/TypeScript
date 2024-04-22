@@ -1,16 +1,13 @@
 "use strict";
+// const user = {
+//     name : "imran",
+//     email: "imran@gmail.com",
+//     isActive: true
+// }
 Object.defineProperty(exports, "__esModule", { value: true });
-var user = {
-    name: "imran",
-    email: "imran@gmail.com",
-    isActive: true
-};
-function createUser(_a) {
-    var string = _a.name, boolean = _a.isPaid;
+function createUser(user) {
+    return { name: "imran", email: "imran@gmail.com", isActive: true };
+    // return user.email
 }
-function createCourse() {
-    return { name: "typescript", price: 399 };
-}
-var newUser = { name: "imran", isPaid: false, email: "imran@gmial.com" };
-createUser(newUser);
-createCourse();
+var obj = createUser({ name: "imran", email: "imran@gmail.com", isActive: true });
+console.log(obj);
