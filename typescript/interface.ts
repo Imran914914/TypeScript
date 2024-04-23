@@ -9,12 +9,12 @@ interface User {
 } 
 
 // re-opening and inherit interface
-//re-opening
+// re-opening
 interface User {
     githubToken:string
 }
 
-//inherit (we can inherit interface with keyword 'extends')
+// inherit (we can inherit interface with keyword 'extends')
 // syntax   interface NewinterfaceName extends NameofParentinterface
 interface Admin extends User{
     role: "leader"|"manager"|"employee"
